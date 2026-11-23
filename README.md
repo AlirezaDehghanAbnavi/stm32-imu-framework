@@ -36,16 +36,26 @@ It supports both polling-based and interrupt-driven data acquisition, with confi
 ## Project Structure
 
 ```text
-Core/
-├── Inc/
-│   ├── lsm6dsv16x.h
-│   ├── imu.h
-│   └── sensor_config.h
-└── Src/
-    ├── main.c
-    ├── lsm6dsv16x.c
-    └── imu.c
-Drivers/
+Core
+├── Inc
+│   ├── imu.h
+│   ├── lsm6dsv16x.h
+│   ├── main.h
+│   ├── sensor_config.h
+│   ├── sensor_data.h
+│   ├── stm32f4xx_hal_conf.h
+│   └── stm32f4xx_it.h
+├── Src
+│   ├── imu.c
+│   ├── lsm6dsv16x.c
+│   ├── main.c
+│   ├── stm32f4xx_hal_msp.c
+│   ├── stm32f4xx_it.c
+│   ├── syscalls.c
+│   ├── sysmem.c
+│   └── system_stm32f4xx.c
+└── Startup
+    └── startup_stm32f401retx.s
 ```
 
 ## Getting Started
