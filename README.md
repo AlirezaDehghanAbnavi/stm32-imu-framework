@@ -73,7 +73,7 @@ Sensor measurements are transmitted over UART, including:
 
 ## Author
 
-Ali
+Alireza
 
 ## License
 
