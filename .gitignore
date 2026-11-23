@@ -1,0 +1,17 @@
+# Build outputs
+Debug/
+Release/
+build/
+
+# Compiled files
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.list
+*.map
+
+# IDE temporary files
+.metadata/
+.settings/
